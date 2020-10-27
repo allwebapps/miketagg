@@ -1,0 +1,63 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+
+  #header.header-fullwidth #header-wrap .header-extras {
+      border-left: 0px solid #ffffff;}
+  #header.header-fullwidth.header-transparent #header-wrap .header-extras {
+      border-left: 0px solid rgba(144, 144, 144, 0.25); }
+  #header.header-fullwidth.header-transparent.dark #header-wrap .header-extras {
+      border-left: 0px solid rgba(231, 231, 231, 0.25); }
+
+      #page-title.page-title-classic .page-title > h1 {
+      font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+      font-size: 50px;
+      font-style: normal;
+        color: #FFFFFF;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-transform: none;
+        letter-spacing: 0; }
+
+/* Supermarketing Agency */
+.ttl {
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+        color: #FFFFFF;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-transform: none;
+        letter-spacing: -2px; }
+
+
+
+
+/* Typewriter STYLES */
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+/* end: Typewriter */
